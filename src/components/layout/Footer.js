@@ -84,15 +84,10 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-10 pt-6 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-10 pt-6 border-t border-border flex items-center justify-center">
           <p className="text-sm text-foreground-muted">
             &copy; {new Date().getFullYear()} {profile.name}. All rights
             reserved.
-          </p>
-          <p className="text-xs text-foreground-muted">
-            Built with{" "}
-            <span className="text-accent">Next.js</span> &{" "}
-            <span className="text-accent">Tailwind CSS</span>
           </p>
         </div>
       </div>
